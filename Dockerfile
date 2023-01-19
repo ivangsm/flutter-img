@@ -9,3 +9,5 @@ RUN git clone https://github.com/flutter/flutter.git -b stable /usr/local/flutte
 
 # Set flutter environment path
 ENV PATH="/usr/local/flutter/bin:${PATH}"
+
+RUN flutter precache
